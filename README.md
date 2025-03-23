@@ -24,7 +24,9 @@
    ### yarn install
 3. Start the server:
    ### yarn start
-4. Test the API using Postman:
+4. Add your serviceAccount.json file in firebase.json under config folder to access firebase firestore db: 
+   ### serviceAccount.json
+5. Test the API using Postman:
    ### http://localhost:8080/health-check
 
 ## Description
