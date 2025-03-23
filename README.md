@@ -34,4 +34,5 @@ Referral Builder is an application that allows users to `create`, `update`, `del
 1. On the client side, fill in the `Personal Details` and `Address` fields.
 2. Click `Create Referral` after entering the details.
 3. The newly created referral will appear on the right side of the page.
+4. You can also `edit` and `delete` a specific referral by clicking the icon in the actions column of the details
    
