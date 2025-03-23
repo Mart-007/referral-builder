@@ -1,0 +1,92 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #dcdcdc;
+}
+
+@import "./global/input-form.less";
+@import "./form.less";
+@import "./details.less";
+
+.referral__builder__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin: 8px;
+
+  .form__container,
+  .details__container {
+    flex: 1;
+    width: 100%;
+  }
+}
+
+.delete-referral,
+.edit-referral {
+  display: flex;
+  justify-content: center;
+  .ant-modal-body {
+    .ant-modal-confirm-body-wrapper {
+      .ant-modal-confirm-body {
+        span {
+          display: none;
+        }
+      }
+      .ant-modal-confirm-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
+        .ant-btn-primary {
+          background: #e11d1d;
+        }
+      }
+    }
+  }
+}
+.edit-referral {
+  .ant-modal-body {
+    .ant-modal-confirm-body-wrapper {
+      .ant-modal-confirm-btns {
+        .ant-btn-primary {
+          background: #1677ff;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .referral__builder__container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .details__container {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .buttons button {
+    width: 100%;
+    max-width: 200px;
+    height: 45px;
+  }
+
+  .input__form input {
+    width: 100%;
+  }
+}

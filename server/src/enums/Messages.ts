@@ -1,0 +1,5 @@
+export const MISSING_REQUIRED_PARAMETERS = 'Missing required parameters.'
+export const NO_DATA_FOUND = 'No data found.'
+export const MISSING_AUTHORIZATION_TOKEN = 'Missing authorization token.'
+export const SUCCESSFULLY_DELETED = 'Successfully deleted.'
+export const SUCCESSFULLY_UPDATE = 'Successfully updated.'

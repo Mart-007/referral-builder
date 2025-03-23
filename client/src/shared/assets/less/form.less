@@ -1,0 +1,83 @@
+.form__container {
+  height: 100vh;
+  background: #fff;
+  padding: 30px 40px;
+  .title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .content {
+    .header {
+      color: #dcdcdc;
+      font-size: 16px;
+      font-weight: 600;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #dcdcdc;
+      &.address {
+        margin-top: 20px;
+      }
+    }
+    .fields {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+  .buttons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    button {
+      width: 300px;
+      height: 50px;
+      color: #dcdcdc;
+      font-weight: 700;
+    }
+    .create {
+      background: #3cb371;
+      color: #fff;
+    }
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .form__container {
+      padding: 20px;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+
+    .fields {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+
+      button {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .title {
+      font-size: 18px;
+    }
+
+    .buttons button {
+      width: 100%;
+      max-width: 200px;
+      height: 45px;
+    }
+  }
+}
