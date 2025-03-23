@@ -1,33 +1,33 @@
-### Referral Builder
+# Referral Builder
 
 ## Getting Started
 
-# Cloning the Repository
+## Cloning the Repository
 
-# To get stared, clone this repository:
+## To get stared, clone this repository:
 1. git clone https://github.com/Mart-007/referral-builder
 
 ## Client Setup
 1. Navigate to the client directory:
-   # cd client  
+   ### cd client  
 2. Install dependencies:
-   # yarn install  
+   ### yarn install  
 3. Start the client:
-   # yarn dev
+   ### yarn dev
 4. Open your browser and go to:
-   # http://localhost:3000/
+   ### http://localhost:3000/
 
 ## Server Setup
 1. Navigate to the server directory:
-   # cd server
+   ### cd server
 2. Install dependencies:
-   # yarn install
+   ### yarn install
 3. Start the server:
-   # yarn start
+   ### yarn start
 4. Test the API using Postman:
-   # http://localhost:8080/health-check
+   ### http://localhost:8080/health-check
 
-# Description
+## Description
 Referral Builder is an application that allows users to `create`, `update`, `delete`, and `retrieve` referrals efficiently.
 
 # How to use
